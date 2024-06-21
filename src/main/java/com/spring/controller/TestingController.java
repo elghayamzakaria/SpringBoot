@@ -12,4 +12,9 @@ public class TestingController {
     public String getName(){
         return "I am Zakaria El ghayam";
     }
+
+    @GetMapping("/adresse")
+    public String getAdress(){
+        return "kenitra";
+    }
 }
